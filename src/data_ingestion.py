@@ -45,6 +45,7 @@ def clean_data(data=dict):
         df['game_stage_1xp_photoshoot_challenge_completed_timestamp'] = df['context.traits.game_stage_1xp_photoshoot_challenge.completed_timestamp']
         df['game_stage_1xp_photoshoot_challenge_completed_in_game_time_seconds'] = df['context.traits.game_stage_1xp_photoshoot_challenge.completed_in_game_time_seconds']
     print(df)
+    # return df
 
 if __name__ == "__main__":
     raw_data = read_json()

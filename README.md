@@ -5,7 +5,7 @@ The code is run in a 'python:3.6-slim' Docker container. You can test the output
 ```
 make test
 ```
-This will run the pipeline and output the resulting DataFrame.
+This will run the pipeline and output the resulting DataFrame to the console, I have included a commented out _return df_ to replace the _print(df)_ for a production environment.
 If you want to clear Docker afterwards I have included:
 ```
 make prune
