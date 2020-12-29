@@ -1,0 +1,138 @@
+{
+    "anonymousId": "E2CF975B-A9A0-4EB7-8CFE-A476858F642C",
+    "context": {
+      "app": {
+        "build": "5641",
+        "name": "DREST",
+        "namespace": "com.drest.client",
+        "version": "1.27.1"
+      },
+      "device": {
+        "adTrackingEnabled": true,
+        "advertisingId": "E50EC658-B88F-4BF4-8FB0-5A5A15711CA4DD",
+        "id": "0AFD8C5E-A13D-41D6-92D3-D52BFE9614D5",
+        "manufacturer": "Apple",
+        "model": "iPhone10,1",
+        "type": "ios"
+      },
+      "ip": "11.111.111.11",
+      "library": {
+        "name": "analytics-ios",
+        "version": "3.7.1"
+      },
+      "locale": "en-US",
+      "network": {
+        "carrier": "AT&T",
+        "cellular": false,
+        "wifi": true
+      },
+      "os": {
+        "name": "iOS",
+        "version": "14.2"
+      },
+      "protocols": {
+        "event_version": "1",
+        "sourceId": "VB9x8FLEWT"
+      },
+      "screen": {
+        "height": 667,
+        "width": 375
+      },
+      "timezone": "America/New_York",
+      "traits": {
+        "af_channel": "Facebook",
+        "af_status": "Non-organic",
+        "anonymousId": "E2CF975B-A9A0-4EB7-8CFE-A476858F642C",
+        "app_opened_at_timestamp": "2020-12-01T14:59:29.912Z",
+        "app_session_id": "302082F9-6C34-4E41-828B-0B324A042C15",
+        "build": "5641",
+        "campaign": "Drest_IOS_US",
+        "campaign_id": "23844995290300165",
+        "device_id": "0AFD8C5E-3333-4444-92D3-D52BFE1114D5",
+        "display_name": "Test",
+        "dollars": 3095,
+        "email": "drest@drest.com",
+        "game_stage_1xp": {
+          "completed_in_game_time_seconds": -0.000007033348083496094,
+          "completed_timestamp": "2020-08-18T01:12:36.637Z",
+          "start_timestamp": "2020-07-14T21:30:28.492Z"
+        },
+        "game_stage_1xp_photoshoot_challenge": {
+          "completed_in_game_time_seconds": 409.17797100543976,
+          "completed_timestamp": "2020-08-18T01:12:36.638Z",
+          "start_timestamp": "2020-07-14T21:23:39.315Z"
+        },
+        "install_timestamp": "2020-07-14T21:20:45.054Z",
+        "media_source": "Facebook Ads",
+        "name": "Test",
+        "operativeSystem": "ios",
+        "os": "ios",
+        "reputation": 10050,
+        "time_units": 25,
+        "userId": "bav6nDtyNLWtit6MOYD5BpketNm1",
+        "user_authentication_provider": "facebook",
+        "user_authentication_type": "credential",
+        "user_id": "bav6nDtyNLWtit6MOYD5BpketNm1",
+        "username": "Test",
+        "version": "1.27.1"
+      }
+    },
+    "event": "Photoshoot Saved",
+    "integrations": {
+      "AppsFlyer": false,
+      "all": true
+    },
+    "messageId": "D2A6C7DF-695A-4A20-BC00-E9F835D6DE59",
+    "originalTimestamp": "2020-12-01T15:17:07.462Z",
+    "properties": {
+      "challenge_description": "We're thrilled to be able to introduce Candice Huffine, Imaan Hammam, Irina Shayk, Natalia Vodianova and Precious Lee to DREST. From the front covers of countless Vogue magazines to the runways of Valentino and Versace to campaigns for Burberry and Bottega Veneta, the DREST Supers are industry icons. \n\nYou now have the extremely rare opportunity to style your favorite Super during this exciting launch week. Enjoy 9 days of Super group challenges, plus each Super joining DREST will be celebrated with their own special day of challenges.\n\nYou'll be able to style the Supers during this launch period in our exclusive high fashion locations; after that they will be available for you to book with Set Passes. You'll also be able to choose from 9 different hairstyles from industry legend Sam McKnight's incredible creations as well as exclusive makeup looks by Mary Greenwell. Today, your shoot needs to have as much impact as these iconic models. Choose pieces that demand attention, think *avant-garde* silhouettes and dazzling *embellishment*. ",
+      "challenge_id": "8c77e08e-fa05-461e-a02d-2b4dc6217e62",
+      "challenge_name": "Meet Candice, Imaan, Irina, Natalia And Precious!",
+      "challenge_requirements": "requirement 1: statement(tag)",
+      "challenge_requirements_details": [
+        {
+          "criteria": [
+            {
+              "criteriaType": "tag",
+              "id": "7929edbd-d154-494e-9645-c76b53235114",
+              "localizedValue": "statement",
+              "value": "statement"
+            }
+          ],
+          "id": "7929edbd-d154-494e-9645-c76b53235114",
+          "quantity": 1
+        }
+      ],
+      "challenge_time_cost": 25,
+      "challenge_type": "photoshoot",
+      "context": "photoshoot",
+      "description": "The user left a photoshoot challenge and the progress has been saved",
+      "dollars_sinked": 0,
+      "duration_seconds": 263.1089370250702,
+      "items_added": "924e0277-4dfe-4d1c-a168-b084e55417ae,2ce79c76-763c-4c60-a0af-bb3b270cad8a,6d6a0e31-0be5-4948-9e52-6bf22e1b220f,2dce9b2b-0b99-4ecb-a483-1782275e397a,db35cd94-52ed-458e-b036-27461cd7d8c4,36c25086-8524-4774-8cc1-9eeff3e631af,885cbf6b-1228-4a52-b78d-da5cb8f43b63,6a70cd2d-c035-4f1a-860e-f6fe585cb05e,937842fb-71ac-4384-88c2-55dcb521e0c5,fcd69172-2d03-4d49-bd0e-3451ff9f7942,a9f4e5ae-ea4f-499e-a448-24092e25da00,696ae86d-fd45-4a60-857c-970e43629ca7,6799e33d-b048-4a53-918a-5ce0e7a6da7f,254a08e3-f668-4acb-96be-37bb4008800c",
+      "items_added_unique_count": 14,
+      "items_restored": "924e0277-4dfe-4d1c-a168-b084e55417ae,2ce79c76-763c-4c60-a0af-bb3b270cad8a,6d6a0e31-0be5-4948-9e52-6bf22e1b220f",
+      "items_restored_count": 3,
+      "items_unlocked": "",
+      "items_unlocked_count": 0,
+      "loading_time_per_item": {
+        "254a08e3-f668-4acb-96be-37bb4008800c": 5.357706069946289,
+        "2dce9b2b-0b99-4ecb-a483-1782275e397a": 2.6821800470352173,
+        "36c25086-8524-4774-8cc1-9eeff3e631af": 4.209105968475342,
+        "6799e33d-b048-4a53-918a-5ce0e7a6da7f": 6.95279598236084,
+        "696ae86d-fd45-4a60-857c-970e43629ca7": 3.656989097595215,
+        "6a70cd2d-c035-4f1a-860e-f6fe585cb05e": 4.086690068244934,
+        "885cbf6b-1228-4a52-b78d-da5cb8f43b63": 3.8359299898147583,
+        "937842fb-71ac-4384-88c2-55dcb521e0c5": 3.467211961746216,
+        "a9f4e5ae-ea4f-499e-a448-24092e25da00": 5.016652941703796,
+        "db35cd94-52ed-458e-b036-27461cd7d8c4": 1.0209720134735107,
+        "fcd69172-2d03-4d49-bd0e-3451ff9f7942": 4.1244670152664185
+      },
+      "total_item_loading_time": 44.41070115566254
+    },
+    "receivedAt": "2020-12-01T15:17:12.427Z",
+    "sentAt": "2020-12-01T15:17:12.449Z",
+    "timestamp": "2020-12-01T15:17:07.440Z",
+    "type": "track",
+    "userId": "bav6nDtyNLWtit6MOYD5BpketNm1"
+  }
