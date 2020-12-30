@@ -1,4 +1,4 @@
-# drest_test
+# Drest Test
 
 ## How to run
 The code is run in a 'python:3.6-slim' Docker container. You can test the output with _make_ :
