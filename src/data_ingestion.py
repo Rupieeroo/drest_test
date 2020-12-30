@@ -1,7 +1,10 @@
 import pandas as pd
+from pandas.io import sql
+from sqlalchemy import create_engine
 from dataframe_from_dict import DataFrameFromDict
 import json
 
+engine = create_engine('sqlite:///:memory:')
 
 def read_json():
     '''
@@ -14,6 +17,7 @@ def read_json():
         return data_dict
     except:
         print("Something went wrong when writing to the file")
+
 
 def clean_data(data=dict):
     '''
@@ -44,9 +48,26 @@ def clean_data(data=dict):
         df['game_stage_1xp_photoshoot_challenge_start_timestamp'] = df['context.traits.game_stage_1xp_photoshoot_challenge.start_timestamp']
         df['game_stage_1xp_photoshoot_challenge_completed_timestamp'] = df['context.traits.game_stage_1xp_photoshoot_challenge.completed_timestamp']
         df['game_stage_1xp_photoshoot_challenge_completed_in_game_time_seconds'] = df['context.traits.game_stage_1xp_photoshoot_challenge.completed_in_game_time_seconds']
-    print(df)
-    # return df
+    return df
+
+
+def dataframe_to_sql(df=object):
+    '''
+        outputs the dataframe to a relational database sql schema and prints the result
+    '''
+    try:
+        output_sql = df.to_sql('ios', engine)
+        print('DataFrame successfully loaded to SQL Schema')
+        return output_sql
+    except:
+        print('DataFrame to SQL failed')
+    finally:
+        # Read from the relational table
+        res = pd.read_sql_query('SELECT * FROM ios', engine)
+        print(res)
+
 
 if __name__ == "__main__":
     raw_data = read_json()
-    clean_data(raw_data)
+    cleaned_data = clean_data(raw_data)
+    dataframe_to_sql(cleaned_data)
